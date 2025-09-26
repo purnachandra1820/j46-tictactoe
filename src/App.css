@@ -1,0 +1,43 @@
+ 
+
+    #main {
+  
+  width: 100vw; /* full viewport width */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  box-sizing: border-box;
+}
+
+
+    #game {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      gap: 10px;
+    }
+
+    .cell {
+      cursor: pointer;
+      height: 100px;
+      width: 100px;
+      border-radius: 20px;
+      border: 1px solid rgb(70, 7, 7);
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      height: 45px;
+      background-color: red;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
